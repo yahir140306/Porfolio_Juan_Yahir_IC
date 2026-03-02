@@ -13,9 +13,10 @@ export class App {
 
   personalInfo = {
     name: 'Juan Yahir Isidro Cervantes',
-    location: 'Zacualtipán de Ángeles, Hidalgo, Mexico',
+    location: 'Zacualtipán de Ángeles, Hidalgo, México',
     email: 'isidrocej@gmail.com',
     phone: '+52-771-350-4237',
+    // website: 'https://juanyahiric.vercel.app',
     socialNetworks: [
       {
         network: 'LinkedIn',
@@ -31,18 +32,18 @@ export class App {
   };
 
   welcome = [
-    'Software Development student currently in their fifth semester, seeking a professional internship opportunity where they can apply their programming knowledge, strengthen their technical skills, and gain experience in a professional environment.',
-    'A responsible, motivated individual with a willingness to learn, interested in software development and problem-solving in collaborative environments.',
+    'Estudiante de Ingeniería en TI con enfoque en Desarrollo Web (Fullstack), con experiencia práctica utilizando Astro, Supabase y TypeScript. Apasionado por la resolución de problemas y la creación de sistemas escalables. Busco aplicar mis habilidades técnicas en un entorno profesional de alto impacto.',
+    'Ahora enfocado y estudiando Frameworks como Angular y Node.js',
   ];
 
   education = [
     {
       institution: 'Universidad Tecnológica de la Sierra Hidalguense',
-      area: 'Information Technologies and Digital Innovation',
+      area: 'Tecnologías de la Información e Innovación Digital',
       grade: '5°',
       startDate: '2024-08',
-      endDate: 'present',
-      location: 'Zacualtipán de Ángeles, Hidalgo, Mexico',
+      endDate: 'actualidad',
+      location: 'Zacualtipán de Ángeles, Hidalgo, México',
     },
   ];
 
@@ -51,30 +52,35 @@ export class App {
       name: 'RANTU',
       url: 'https://project-liard-alpha-81.vercel.app/',
       startDate: '2025-06',
-      endDate: 'present',
-      summary: 'A web application for renting rooms and apartments',
+      endDate: 'actualidad',
+      summary:
+        'Creé una plataforma web para ayudar a estudiantes a encontrar y rentar cuartos de forma fácil.',
       highlights: [
-        'Development of a modern web application using Astro, Supabase and Tailwind CSS, designed for comprehensive rental management.',
-        'I implemented a secure authentication system (Email and OTP) and route protection middleware for session management using cookies.',
-        'I designed and integrated a complete CRUD application for owners, including optimized image uploads and a storage system on Supabase Storage.',
-        'I developed an interactive, real-time rating and review system with user validation and automatic statistics.',
+        'Desarrollé la página usando Astro y Tailwind CSS para que sea rápida y se vea bien en celulares.',
+        'Configuré el inicio de sesión con correo y códigos de seguridad (OTP) usando Supabase.',
+        'Hice que los dueños puedan subir fotos de sus cuartos, editarlos o borrarlos fácilmente.',
+        'Agregué una sección para que los usuarios dejen comentarios y calificaciones con estrellas.',
       ],
     },
   ];
 
   skills = [
     {
-      label: 'Programming',
+      label: 'Frontend',
       details:
-        'Proficient with HTML, CSS, JavaScript, TypeScript, MySQL, Linux, Git, and GitHub; good understanding of Web, app development',
+        'HTML, CSS, JavaScript, TypeScript, Tailwind CSS, Astro, Angular',
     },
     {
-      label: 'Languages',
-      details: 'English A1',
+      label: 'Backend/DB',
+      details: 'Supabase, MySQL, MariaDB, Python, Go',
+    },
+    {
+      label: 'Herramientas',
+      details: 'Git, GitHub, Linux (WSL/Arch), Vercel',
     },
   ];
 
   extracurricular = [
-    'Self-directed study of high-performance languages ​​and systems such as Go and Python.',
+    'Estudio de manera autodidacta lenguajes y sistemas de alto rendimiento como Golang y Python.',
   ];
 }
